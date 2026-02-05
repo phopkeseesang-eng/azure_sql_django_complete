@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
      'default': {
          'ENGINE': 'mssql',
-         'NAME': 'free-sql-db-4751078',
+         'NAME': 'free-sql-db-4467991',
          'USER': 'phop-admin',
          'PASSWORD': 'Tatsumaki-Yuya12',
          'HOST': 'phop-sql-server.database.windows.net',
