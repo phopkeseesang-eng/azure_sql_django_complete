@@ -111,7 +111,7 @@ mongo_password = urllib.parse.quote_plus('Tatsumaki-Yuya12')
 # MONGO_URI = 'mongodb://localhost:27017/'
 MONGO_URI = f'mongodb+srv://{mongo_username}:{mongo_password}@bearlab-mongodb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000'
 MONGO_DB_NAME = 'django_store_reviews'
-
+    
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
