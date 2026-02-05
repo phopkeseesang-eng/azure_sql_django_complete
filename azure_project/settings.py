@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xzk$v$q2m1-^3b+^ck!6_hk4gmm$47c8zyzo@-o35spu*+shd$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -98,6 +98,7 @@ DATABASES = {
          'PORT': '1433',
          'OPTIONS': {
              'driver': 'ODBC Driver 18 for SQL Server',
+         'extra_params': 'Encrypt=yes;TrustServerCertificate=yes',
          },
      },
  }
